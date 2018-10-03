@@ -1,0 +1,85 @@
+.askContainer {
+    width : 100%;
+    height : 300px;
+    margin : 0px;
+    padding-right: 40px;
+    margin-bottom: 20px;
+}
+
+.ask {
+    height: 300px;
+    padding: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.askTitle {
+    width : 100%;
+    height : 50px;
+    font-size : 0.9rem;
+    margin-bottom: 10px;
+}
+
+.askEntry {
+    width : 100%;
+    height : 200px;
+    font-size : 0.9rem
+}
+
+.askControl {
+    width : 100%;
+    height : 58px;
+    padding-top : 10px;
+    padding-bottom : 10px;
+    display : flex;
+    justify-content : space-between;
+    align-items : flex-end;
+}
+
+.cus-modal-dialog {
+    position:absolute;
+    top:50% !important;
+    left: 35% !important;
+    transform: translate(0, -50%) !important;
+    -ms-transform: translate(0, -50%) !important;
+    -webkit-transform: translate(0, -50%) !important;
+    margin: auto;
+    width:100%;
+    height:50%;
+}
+.cus-modal-content {
+    min-height:100%;
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+}
+.cus-modal-body {
+    position:absolute;
+    top:45px; // height of header
+    bottom:45px;  // height of footer
+    left:0;
+    right:0;
+    overflow-y:auto;
+}
+.cus-modal-footer {
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+}
+
+.com-searchbar {
+    width : 200px;
+    height : 35px;
+    border-top-left-radius : 16px;
+    border-top-right-radius : 16px;
+    border-bottom-left-radius : 16px;
+    border-bottom-right-radius : 16px;
+    background-color : rgb(234,234,234);
+    border-width : 1px;
+    border: solid;
+    border-color: black;
+}

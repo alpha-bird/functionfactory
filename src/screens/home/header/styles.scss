@@ -1,0 +1,134 @@
+.navbar {
+    min-height : 70px;
+    padding-left: 25px;
+}
+
+.nav-item-header {
+    cursor : pointer;
+    display : flex;
+    align-items : center;
+    min-width : 200px;
+}
+
+.nav-item1 {
+    min-width: 0px;
+    margin-left: 60px;
+}
+
+.nav-item2 {
+    min-width: 0px;
+    margin-left: 30px;
+}
+
+.nav-item3 {
+    min-width: 0px;
+    margin-left: 10px;
+}
+
+@media only screen and (max-width:992px) {
+    .nav-item1 {
+        margin-left: 0px;
+    }
+    .nav-item2 {
+        margin-left: 0px;
+    }
+    .nav-item3 {
+        margin-left: 0px;
+    }
+}
+
+.nav-label {
+    cursor : pointer;
+    margin : 0px;
+    //margin-left : 10px;
+    font-size : 1.2rem;
+    font-weight : normal;
+    color : rgb(0,127,202);
+}
+
+.nav-group {
+    cursor : pointer;
+    margin : 0px;
+    margin-left : 10px;
+    font-size : 1.2rem;
+    font-weight : normal;
+    color : rgb(0,127,202);
+}
+
+.nav-icon {
+    color : rgb(0,127,202)
+}
+
+.nav-separator {
+    //color : rgb(0,127,202);
+    color : rgb(141,141,141);
+    font-size : 1.4rem;
+    margin-left : 15px;
+}
+
+
+.nav-dropdown-label {
+    background-color : #f8f9fa;
+    margin-left : 15px;
+    font-size : 1.2rem;
+    border-width : 0;
+    color : rgb(0,127,202);
+}
+
+.dropdown-item {
+    color : rgb(0,127,202)
+}
+
+.header-label {
+    color : rgb(141,141,141)
+}
+
+.header-drop-item1 {
+    color : rgb(141,141,141);
+    margin : 0;
+}
+
+.header-drop-item2 {
+    margin : 0;
+    margin-left : 10px;
+}
+
+.header-drop-item3 {
+    margin : 0;
+    margin-left : 10px;
+    color : rgb(186,184,185);
+    font-size : 0.8rem;
+}
+
+.nav-searchbar {
+    width : 200px;
+    height : 35px;
+    border-top-left-radius : 16px;
+    border-top-right-radius : 16px;
+    border-bottom-left-radius : 16px;
+    border-bottom-right-radius : 16px;
+    background-color : rgb(234,234,234);
+    border-width : 0px;
+}
+
+.nav-avatar {
+    width : 40px;
+    height : 40px;
+    background-color : rgb(0,127,202);
+    border-top-left-radius : 20px;
+    border-top-right-radius : 20px;
+    border-bottom-left-radius : 20px;
+    border-bottom-right-radius : 20px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+}
+
+.nav-avatar-name {
+    margin : 0;
+    color : white;
+}
+
+.clickable {
+    cursor : pointer;
+}

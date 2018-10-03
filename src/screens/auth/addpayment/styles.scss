@@ -1,0 +1,43 @@
+.payment-method {
+    padding-top: 150px;
+}
+
+.payment-header {
+    background : white;
+    text-align : left; 
+    font-size : 2rem;
+    font-weight: bold;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+
+    border-width:  1px;
+    border-style: solid;
+    border-color: rgb(221, 219, 219);
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.creditcard-container {
+    background-color:  white;
+
+    border-style: solid;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-top-width: 0px;
+    border-bottom-width: 1px;
+    border-color: rgb(221, 219, 219);
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;    
+}
+
+.payment-text {
+    font-size: 1.2rem;
+    font-weight: bold; 
+    width: 100%;
+}
+
+.indicator-absolute {
+    position: absolute
+}

@@ -1,0 +1,60 @@
+.rightpanel {
+    width: 50%;
+    min-width: 600px;
+
+    min-height: 95vh;
+
+    margin-left: 50%;
+    margin-top: 70px;
+    position: absolute;
+    background-color: rgb(233, 233, 233);
+}
+
+//Reponsive Rightpanel
+@media only screen and (max-width:1200px) {
+    /* For tablets: */
+    .rightpanel {
+        margin-left: 600px;
+    }
+}
+
+.resultHeaderContainer {
+    width:  100%;
+    height: 10%;
+    
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.resultHeaderTitle1 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    color : rgb(154,154,154);
+}
+
+.resultHeaderTitle2 {
+    font-size: 1.2rem;
+    font-weight: normal;
+    cursor : pointer;
+    color : rgb(154,154,154);
+}
+
+.results {
+    width: 100%;
+    height: 90%;
+
+    position: relative;
+    overflow:hidden; 
+    float: right;
+}
+
+.selectResultItem {
+    width : 100%;
+    margin-bottom: 3%;
+}
+
+.comemntsView {
+    width : 100%; 
+}
